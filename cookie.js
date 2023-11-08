@@ -12,14 +12,16 @@ function cookieClick() {
     num += 1;
     numbers.innerHTML = num;
 
-    // get the level div element from the html file
+    // get the level div and image element from the html file
     var upgradeLevel = document.getElementById("upgradeLevel");
+    var cookie = document.getElementById("image");
     
 
     // automatic upgrade to 2x paul dickson level
     if(num >= 30 ){
         num += 2;
         upgradeLevel.innerHTML = "Paul Dickson Level";
+        cookie.src = "imgs/cracked-cookie.png";
     }
 
     // automatic upgrade to 10x carl alphonce level
@@ -32,6 +34,7 @@ function cookieClick() {
     if(num >= 1000) {
         num += 30;
         upgradeLevel.innerHTML = "Ethan Blanton Level";
+        cookie.src = "imgs/cracked-cookie-2.png";
     }
 
     // automatic upgrade to 1000x matthew hertz level
