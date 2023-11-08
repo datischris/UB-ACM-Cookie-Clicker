@@ -1,5 +1,5 @@
 # Welcome to UB ACM's first Hacknight for Fall 2023
-This is the working implementation of Cookie Clicker
+This is the working implementation of the cookie clicker
 
 # In this repo you will find
 1. index.html
